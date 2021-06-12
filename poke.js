@@ -38,6 +38,7 @@ async function fetchData() {
   const pokeImage = pokeData.sprites.front_default;
   const spriteCreate = document.getElementById("sprite");
   spriteCreate.setAttribute("src", `${pokeImage}`);
+  spriteCreate.setAttribute("alt", `${pokeName}`);
 }
 
 // Show a random pokemon on the initial page load
