@@ -76,6 +76,7 @@ header {
 
 .info {
   display: inline;
+  text-transform: capitalize;
 }
 
 .info-container {
@@ -94,6 +95,7 @@ header {
 }
 
 #heart {
+  margin: 0 0.5rem 0 0.5rem;
   -webkit-text-fill-color: red;
   -webkit-text-stroke: 1px black;
 }
@@ -101,13 +103,6 @@ header {
 #nameColorChange {
   color: #fff;
   margin: 0 0.5rem 0 0.5rem;
-  text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
-    -1px 1px 0 #000, 1px 1px 0 #000;
-  -webkit-text-stroke: 1px #000;
-}
-
-#nameData {
-  text-transform: capitalize;
 }
 
 #sprite {
@@ -115,6 +110,14 @@ header {
   width: 200px;
 }
 
-#typesData {
-  text-transform: capitalize;
+@media (min-width: 400px) {
+  .content {
+    width: 85%;
+  }
+}
+
+@media (min-width: 550px) {
+  .content {
+    width: 80%;
+  }
 }
