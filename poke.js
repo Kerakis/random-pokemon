@@ -1,7 +1,7 @@
 // Define variables to select parts of the DOM
-const pokemonName = document.querySelector("#name");
-const pokemonId = document.querySelector("#id");
-const pokemonTypes = document.querySelector("#types");
+const pokemonName = document.querySelector("#nameData");
+const pokemonId = document.querySelector("#idData");
+const pokemonTypes = document.querySelector("#typesData");
 
 async function fetchData() {
   // Select a random pokemon. Update this to take the string length of pokemon.species

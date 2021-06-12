@@ -2,24 +2,51 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sigmar+One&family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
     <title>RaPoké - A Random Pokémon Generator</title>
     <script src="poke.js" defer></script>
   </head>
   <body>
-    <div class="header">
-      <h1>RaPoké - A Random Pokémon Generator</h1>
+    <div class="content">
+      <header>
+        <h1>RaPoké</h1>
+        <h2>A Random Pokémon Generator</h2>
+      </header>
+      <div class="sprite-container">
+        <img src="images/blank.png" id="sprite" alt="pokemon sprite image" />
+      </div>
+      <div class="info-container">
+        <div class="name-container">
+          <div class="info" id="name">Name:</div>
+          <div class="info" id="nameData"></div>
+        </div>
+        <div class="id-container">
+          <div class="info" id="id">ID #:</div>
+          <div class="info" id="idData"></div>
+        </div>
+        <div class="type-container">
+          <div class="info" id="types">Type:</div>
+          <div class="info" id="typesData"></div>
+        </div>
+      </div>
+      <div class="button-container">
+        <button type="button" name="button" id="randomizer">
+          Generate Another
+        </button>
+      </div>
+      <footer>
+        Made with <span id="heart">&#10084;</span> by
+        <a
+          href="mailto:rlupchurch3@gmail.com?subject=RaPoke"
+          id="nameColorChange"
+          >Rob Upchurch</a
+        >
+        &copy; 2021
+      </footer>
     </div>
-    <div class="poke-container"></div>
-    <div id="sprite-container">
-      <img src="images/blank.png" id="sprite" alt="pokemon sprite image" />
-    </div>
-    <div class="info">
-      <p id="name"></p>
-      <p id="id"></p>
-      <p id="types"></p>
-    </div>
-    <button type="button" name="button" id="randomizer">
-      Generate Another
-    </button>
   </body>
 </html>
