@@ -93,6 +93,11 @@ header {
   width: 100%;
 }
 
+#evolution-chain {
+  display: block;
+  text-align: center;
+}
+
 #heart {
   margin: 0 0.5rem 0 0.5rem;
   -webkit-text-fill-color: red;
