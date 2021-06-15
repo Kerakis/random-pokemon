@@ -1,0 +1,27 @@
+{
+  "name": "random-pokemon-copy",
+  "version": "1.0.0",
+  "description": "Random Pokemon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kerakis/random-pokemon.git"
+  },
+  "author": "Rob Upchurch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kerakis/random-pokemon/issues"
+  },
+  "homepage": "https://github.com/Kerakis/random-pokemon#readme",
+  "dependencies": {
+    "pokeapi-js-wrapper": "^1.2.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.27.0",
+    "@typescript-eslint/parser": "^4.27.0",
+    "eslint": "^7.28.0"
+  }
+}
